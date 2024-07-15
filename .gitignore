@@ -17,6 +17,6 @@
 *.vsix
 
 #Other files
-    .exe
-    .exp
-    .lib
+    *.exe
+    *.exp
+    *.lib
