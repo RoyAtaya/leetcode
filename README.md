@@ -5,5 +5,4 @@
 ## Arrays & hashing:
 
 - Contains Duplicate: Use a set
-- Valid Anagram: 
-- Concatenation of Array
+- Valid Anagram: Use 2 maps and equate them
