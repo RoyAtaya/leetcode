@@ -1,6 +1,4 @@
-# leetcode
-
-## Notes
+# leetcode Notes
 
 ## Arrays & hashing:
 - Contains Duplicate:
