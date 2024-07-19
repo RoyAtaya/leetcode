@@ -23,8 +23,8 @@
   - if they are the same then the shorter string is a subsequence of the longer string.
 
 - Length of last word
- - loop through the string backwards until you find the first non space char
- - start counting until you hit another space char
+  - loop through the string backwards until you find the first non space char
+  - start counting until you hit another space char
 
 - Two Sum
 - Longest common prefix
