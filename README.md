@@ -21,3 +21,17 @@
   - while both letters in each string is the same inrement the index of both
   - compare the index of the shorter string to it's count at the end, 
   - if they are the same then the shorter string is a subsequence of the longer string.
+
+- Length of last word
+ - loop through the string backwards until you find the first non space char
+ - start counting until you hit another space char
+
+- Two Sum
+- Longest common prefix
+- Group anagrams
+- Pascals triangle
+- Remove element
+- Unique email addresses
+- Isomorphioc strings
+- Can place flowers
+- Majority element
