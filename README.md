@@ -27,6 +27,9 @@
   - start counting until you hit another space char
 
 - Two Sum
+  - use a dictionary to store the element and it's index
+  - return if the compliment is in the dictionary
+  
 - Longest common prefix
 - Group anagrams
 - Pascals triangle
