@@ -31,6 +31,11 @@
   - return if the compliment is in the dictionary
   
 - Longest common prefix
+  - compare each letter in the first string to every letter in each string in the array
+  - after we have compared the ith letter in every string to the ith letter in the first word
+    - if we find a single letter that does not match we return the result
+    - otherwise we add that letter to the result string
+    
 - Group anagrams
 - Pascals triangle
 - Remove element
