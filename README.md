@@ -35,8 +35,14 @@
   - after we have compared the ith letter in every string to the ith letter in the first word
     - if we find a single letter that does not match we return the result
     - otherwise we add that letter to the result string
-    
+
 - Group anagrams
+  - create a map <arr of ints, array of strings>
+  - the keys are an array of size 26 where each position corresponds to one letter of the alphabet
+  - loop through each word and for each word create the count of each letter 
+  - result to the map 
+  - return values of the map
+
 - Pascals triangle
 - Remove element
 - Unique email addresses
