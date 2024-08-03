@@ -44,6 +44,10 @@
   - return values of the map
 
 - Pascals triangle
+  - for the first 2 rows just insert them into the result array
+  - for all rows after the 2nd row, create a new temp row and for each elem in the previous row do the following calcuations:
+  - res[row - 1][elem] + res[row - 1][elem + 1] and then add that to the temp array
+
 - Remove element
 - Unique email addresses
 - Isomorphioc strings
