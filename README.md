@@ -53,3 +53,13 @@
 - Isomorphioc strings
 - Can place flowers
 - Majority element
+
+
+## Math & Geometry
+
+- Convert int to excel column title
+  - We are essentially coneverting base 10 to base 26
+  - while the column number is greater than 0 we need to mod by 26
+  - then add that offset with 'A' to get the letter to add to the result
+  - we then decrease the column number by dividing by 26
+  - because we set A -> 1 we need to subtract 1 from columnNumber before we mod or divide column number by 26 
