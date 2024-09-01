@@ -63,3 +63,12 @@
   - then add that offset with 'A' to get the letter to add to the result
   - we then decrease the column number by dividing by 26
   - because we set A -> 1 we need to subtract 1 from columnNumber before we mod or divide column number by 26 
+
+- Greatest Common Divisor of strings
+  - loop from min(str1, str2) to 0 
+  - during each loop check if there exists a common divisor for the substring up to that point
+    - if yes return the substring up to that point
+  - For the isDivisor function: 
+    - check if the current length is a factor of both strings
+    - compute the current factor (how many times you have to multiply our substring to get the original strings)
+    - return a boolean based on if the substring from 0 to the current length * the factor is equal to the original strings
