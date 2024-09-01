@@ -72,3 +72,8 @@
     - check if the current length is a factor of both strings
     - compute the current factor (how many times you have to multiply our substring to get the original strings)
     - return a boolean based on if the substring from 0 to the current length * the factor is equal to the original strings
+
+- count odd numbers in an interval range
+  - get the length of range (inclusive of both the end values) by doing high - low + 1
+  - if both the end points or at least one of the end points is even, we just divide the range length by 2
+  - if both are odd we divide the range length by 2 and then add 1 
